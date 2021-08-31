@@ -4,7 +4,8 @@ window.onload = function() {
     document.querySelector(".notion-navbar").remove();
 };
 
-$('.nav-toggle').click(function() {
+$(window).load(function() {
+   $('.nav-toggle').click(function() {
     $(this).toggleClass('nav-toggled');
     $('.nav-links').toggleClass('nav-links-show');
     var width = $(window).width();
@@ -27,8 +28,10 @@ $(document).keydown(function(e) {
         }
     }
 });
+});
 
-var lastScrollTop = 0;
+$(window).load(function() {
+    var lastScrollTop = 0;
 $(window).scroll(function() {
     var st = $(this).scrollTop();
     var nav = $('.nav');
@@ -42,4 +45,5 @@ $(window).scroll(function() {
         }
         lastScrollTop = st;
     }
+});
 });
