@@ -4,7 +4,7 @@ window.onload = function() {
     document.querySelector(".notion-navbar").remove();
 };
 
-$(window).load(function() {
+$(document).ready(function() {
    $('.nav-toggle').click(function() {
     $(this).toggleClass('nav-toggled');
     $('.nav-links').toggleClass('nav-links-show');
@@ -30,7 +30,7 @@ $(document).keydown(function(e) {
 });
 });
 
-$(window).load(function() {
+$(document).ready(function() {
     var lastScrollTop = 0;
 $(window).scroll(function() {
     var st = $(this).scrollTop();
