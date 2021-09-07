@@ -953,7 +953,7 @@ you’ll need this feature for other aspects of your site before implementing th
 	} */
 	.logo .mobile {
 		display: initial;
-		height: 125px;
+		height: 75px;
 		width: auto;
 		margin-top: 60px;
 		padding-left: 66px;
