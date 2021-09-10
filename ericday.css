@@ -827,7 +827,7 @@ you’ll need this feature for other aspects of your site before implementing th
 
 /*****************************/
 
-/*.nav {
+.nav {
 	background: white;
 	justify-content: space-between;
 	align-items: center;
@@ -919,11 +919,11 @@ you’ll need this feature for other aspects of your site before implementing th
 }
 .nav-link:hover {
 	opacity: 0.6;
-} */
+}
 
 /*  Custom Logo */
 
-/*.logo {
+.logo {
 	color: black !important;
 	text-decoration: none !important;
 	font-weight: 500 !important;
@@ -942,7 +942,7 @@ you’ll need this feature for other aspects of your site before implementing th
 	a.nav-link {
 		padding: 12px 10px;
 	}
-}*/
+}
 
 /* Mobile custom nav */
 
@@ -951,7 +951,7 @@ you’ll need this feature for other aspects of your site before implementing th
 	#page-index .super-content {
 		margin-top: 150px !important;
 	} */
-/*	.logo .mobile {
+	.logo .mobile {
 		display: initial;
 		height: 125px;
 		width: auto;
@@ -994,7 +994,7 @@ you’ll need this feature for other aspects of your site before implementing th
 		padding-left: 0px;
 		margin-top: 15px;
 	}
-}*/
+}
 
 /*****************************/
 
