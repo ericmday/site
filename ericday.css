@@ -273,6 +273,115 @@ div#block-a770b71b7a5d498ba2c27745b191141f {
 
 /*****************************/
 
+/* Global Post Lists. Doesn't effect Posts homepage. Effects articles */
+
+/*****************************/ 
+
+/* Set spacing between posts */
+.notion-collection-list__item {
+	padding: 0 !important;
+	margin: 1em 0 3em 0 !important;
+	border-radius: 0 !important;
+	display: block !important;
+}
+
+@media screen and (min-width: 32em) {
+	.notion-collection-list__item {
+		margin: 2em 0 3em 0 !important;
+	}
+	.notion-collection-list__item {
+		margin-bottom: 1em !important;
+	}
+}
+.notion-collection-list__item:last-child {
+	margin-bottom: 2em !important;
+}
+
+/* Hover styles for listing of posts */
+.notion-collection-list__item:hover {
+	background-color: transparent !important;
+}
+.notion-collection-list__item:hover .property-4d757046 .notion-semantic-string {
+	border-bottom: 1px solid var(--color-text-gray) !important;
+}
+
+/* Restyle meta data of each article in the list */
+.notion-collection-list__item-property {
+	padding: 0 !important;
+}
+.notion-collection-list__item-property .notion-semantic-string {
+	white-space: normal !important;
+}
+.notion-collection-list__item-content,
+.notion-collection-list__item-property .notion-property__select {
+	display: block !important;
+}
+.notion-property__title {
+	display: block !important;
+}
+
+/* Hides icon */
+.notion-property__title .notion-property__title__icon-wrapper {
+	display: none !important;
+}
+
+/* Hides post name property */
+.notion-collection-list__item .notion-property__title .notion-semantic-string {
+	display: none !important;
+}
+
+/* Resets font size of excerpt */
+.notion-collection-list__item-property .notion-property__text .notion-semantic-string {
+	font-size: 1rem !important;
+	line-height: 1.7 !important;
+}
+
+/* Resets font size of date */
+.notion-collection-list__item-property .notion-property__date {
+	font-size: 1rem !important;
+}
+
+/* Resets spacing and padding on date */
+.notion-collection-list__item-property .notion-property__date .notion-semantic-string {
+	min-height: auto !important;
+	padding: 0 !important;
+}
+
+/* Set color and size of date */
+.notion-collection-list__item-property .notion-property__date .notion-semantic-string .date {
+	color: var(--color-text-gray) !important;
+	font-size: 0.875rem !important;
+}
+
+/* Styles for title */
+.notion-collection-list__item-property .property-4d757046 {
+	margin: 0.5em 0 !important;
+}
+
+.notion-collection-list__item-property .property-4d757046 .notion-semantic-string {
+	font-weight: 500 !important;
+	font-size: 1.875rem !important;
+	letter-spacing: -0.01em !important;
+	line-height: 1.25 !important;
+	border-bottom: 1px solid transparent !important;
+	transition: border-color .2s ease-in;
+}
+
+@media screen and (min-width: 32em) {
+	.notion-collection-list__item-property .property-4d757046 .notion-semantic-string {
+		font-size: 1.5rem !important;
+		line-height: 1.15 !important;
+	}
+}
+
+@media screen and (max-width:414px) {
+	.notion-collection-list__item-property .property-4d757046 .notion-semantic-string {
+		font-size:1.5rem !important;
+	}
+}
+
+/*****************************/
+
 /* Posts */
 
 /*****************************/
@@ -417,115 +526,6 @@ div#block-a770b71b7a5d498ba2c27745b191141f {
 	[id*="posts"] .notion-collection-list__item-property .property-4d757046 .notion-semantic-string,
 	.notion-collection-list__item-property .property-4d757046 .notion-semantic-string {
 		font-size: 1.5rem !important;
-	}
-}
-
-/*****************************/
-
-/* Global Post Lists. Doesn't effect Posts homepage. Effects articles */
-
-/*****************************/ 
-
-/* Set spacing between posts */
-.notion-collection-list__item {
-	padding: 0 !important;
-	margin: 1em 0 3em 0 !important;
-	border-radius: 0 !important;
-	display: block !important;
-}
-
-@media screen and (min-width: 32em) {
-	.notion-collection-list__item {
-		margin: 2em 0 3em 0 !important;
-	}
-	.notion-collection-list__item {
-		margin-bottom: 1em !important;
-	}
-}
-.notion-collection-list__item:last-child {
-	margin-bottom: 2em !important;
-}
-
-/* Hover styles for listing of posts */
-.notion-collection-list__item:hover {
-	background-color: transparent !important;
-}
-.notion-collection-list__item:hover .property-4d757046 .notion-semantic-string {
-	border-bottom: 1px solid var(--color-text-gray) !important;
-}
-
-/* Restyle meta data of each article in the list */
-.notion-collection-list__item-property {
-	padding: 0 !important;
-}
-.notion-collection-list__item-property .notion-semantic-string {
-	white-space: normal !important;
-}
-.notion-collection-list__item-content,
-.notion-collection-list__item-property .notion-property__select {
-	display: block !important;
-}
-.notion-property__title {
-	display: block !important;
-}
-
-/* Hides icon */
-.notion-property__title .notion-property__title__icon-wrapper {
-	display: none !important;
-}
-
-/* Hides post name property */
-.notion-collection-list__item .notion-property__title .notion-semantic-string {
-	display: none !important;
-}
-
-/* Resets font size of excerpt */
-.notion-collection-list__item-property .notion-property__text .notion-semantic-string {
-	font-size: 1rem !important;
-	line-height: 1.7 !important;
-}
-
-/* Resets font size of date */
-.notion-collection-list__item-property .notion-property__date {
-	font-size: 1rem !important;
-}
-
-/* Resets spacing and padding on date */
-.notion-collection-list__item-property .notion-property__date .notion-semantic-string {
-	min-height: auto !important;
-	padding: 0 !important;
-}
-
-/* Set color and size of date */
-.notion-collection-list__item-property .notion-property__date .notion-semantic-string .date {
-	color: var(--color-text-gray) !important;
-	font-size: 0.875rem !important;
-}
-
-/* Styles for title */
-.notion-collection-list__item-property .property-4d757046 {
-	margin: 0.5em 0 !important;
-}
-
-.notion-collection-list__item-property .property-4d757046 .notion-semantic-string {
-	font-weight: 500 !important;
-	font-size: 1.875rem !important;
-	letter-spacing: -0.01em !important;
-	line-height: 1.25 !important;
-	border-bottom: 1px solid transparent !important;
-	transition: border-color .2s ease-in;
-}
-
-@media screen and (min-width: 32em) {
-	.notion-collection-list__item-property .property-4d757046 .notion-semantic-string {
-		font-size: 1.5rem !important;
-		line-height: 1.15 !important;
-	}
-}
-
-@media screen and (max-width:414px) {
-	.notion-collection-list__item-property .property-4d757046 .notion-semantic-string {
-		font-size:1.5rem !important;
 	}
 }
 
