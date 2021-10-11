@@ -989,7 +989,7 @@ you’ll need this feature for other aspects of your site before implementing th
 @media (max-width: 546px) {
 	.logo .mobile {
 		display: initial;
-		height: 75px;
+		height: 100px;
 		width: auto;
 		padding-left: 0px;
 		margin-top: 15px;
