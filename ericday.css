@@ -906,7 +906,7 @@ you’ll need this feature for other aspects of your site before implementing th
 	position: absolute;
 	display: flex;
 	z-index: 9999;
-	right: 160px;
+	right: 100px;
 	opacity: 0;
 	top: 10px;
 	flex-direction: row;
