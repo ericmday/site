@@ -1000,7 +1000,7 @@ you’ll need this feature for other aspects of your site before implementing th
 	z-index: 99999;
 	outline: none;
 	display: flex;
-	height: 40px;
+	height: 38px;
 	width: 50px;
 	padding: 0;
 }
@@ -1029,10 +1029,16 @@ you’ll need this feature for other aspects of your site before implementing th
 }
 .nav-toggled span:first-child {
 	pointer-events: none;
-/*	opacity: 0; */
+	transform: rotate(45deg) !important;
+	height:22px !important;
 }
 .nav-toggled span:last-child {
-	transform: rotate(45deg) !important;
+	transform: rotate(-45deg) !important;
+	margin-right:-4px
+}
+
+.nav-toggled:hover span:last-child {
+	transform: rotate(-45deg) !important;
 }
 .nav-links {
 	transition: var(--transition-alt);
