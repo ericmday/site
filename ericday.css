@@ -1029,7 +1029,7 @@ you’ll need this feature for other aspects of your site before implementing th
 }
 .nav-toggled span:first-child {
 	pointer-events: none;
-	opacity: 0;
+/*	opacity: 0; */
 }
 .nav-toggled span:last-child {
 	transform: rotate(45deg) !important;
