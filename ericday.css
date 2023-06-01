@@ -11,12 +11,13 @@
 	--transition-alt: all 0.8s cubic-bezier(0.2, 1, 0.2, 1) !important;
 	--color-text-gray: #808c99!important;
 	--rounded: 8px!important;
-}*/
+}
 
 html {
 	min-height: 100%;
 	position: relative;
 }
+*/
 
 h2 {
 	font-weight: 700 !important;
