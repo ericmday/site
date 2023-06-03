@@ -1027,6 +1027,11 @@ you’ll need this feature for other aspects of your site before implementing th
 .nav-toggle:hover span:last-child {
 	transform: rotate(45deg) !important;
 }
+	
+.nav-toggled:hover span:last-child {
+	transform: rotate(-45deg) !important;
+}
+}
 .nav-toggled span {
 	margin-right: 10px;
 }
@@ -1038,10 +1043,6 @@ you’ll need this feature for other aspects of your site before implementing th
 .nav-toggled span:last-child {
 	transform: rotate(-45deg) !important;
 	margin-right:-4px
-}
-
-.nav-toggled:hover span:last-child {
-	transform: rotate(-45deg) !important;
 }
 .nav-links {
 	transition: var(--transition-alt);
