@@ -1019,7 +1019,7 @@ you’ll need this feature for other aspects of your site before implementing th
 .nav-toggle span:last-child {
 	height: 22px;
 }
-@media all and (min-width:481px) {
+@media all and (min-width:681px) {
 .nav-toggle:hover span:first-child {
 	height: 22px;
 	transform: rotate(45deg) !important;
