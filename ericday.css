@@ -1124,7 +1124,7 @@ you’ll need this feature for other aspects of your site before implementing th
 		border-radius: var(--rounded-lg) !important;
 		width: calc(100% - 24px) !important;
 		padding: 100px 70px 20px !important;
-		right: 12px !important;
+/* 		right: 12px !important; */
 		left: 12px !important;
 		top: 12px !important;
 		display: flex;
