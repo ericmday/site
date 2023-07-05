@@ -4,31 +4,31 @@ window.onload = function() {
     document.querySelector(".notion-navbar").remove();
 };
 
-$(document).ready(function() {
-   $('.nav-toggle').click(function() {
-    $(this).toggleClass('nav-toggled');
-    $('.nav-links').toggleClass('nav-links-show');
-    var width = $(window).width();
-    if (width <= 480) {
-        $('.nav').toggleClass('nav-mobile');
-    } else {
+// $(document).ready(function() {
+//    $('.nav-toggle').click(function() {
+//     $(this).toggleClass('nav-toggled');
+//     $('.nav-links').toggleClass('nav-links-show');
+//     var width = $(window).width();
+//     if (width <= 480) {
+//         $('.nav').toggleClass('nav-mobile');
+//     } else {
 
-    }
-});
+//     }
+// });
 
-$(document).keydown(function(e) {
-    if (e.key === 'Escape') {
-        $('.nav-toggle').removeClass('nav-toggled');
-        $('.nav-links').removeClass('nav-links-show');
-        var width = $(window).width();
-        if (width <= 480) {
-            $('.nav').removeClass('nav-mobile');
-        } else {
+// $(document).keydown(function(e) {
+//     if (e.key === 'Escape') {
+//         $('.nav-toggle').removeClass('nav-toggled');
+//         $('.nav-links').removeClass('nav-links-show');
+//         var width = $(window).width();
+//         if (width <= 480) {
+//             $('.nav').removeClass('nav-mobile');
+//         } else {
 
-        }
-    }
-});
-});
+//         }
+//     }
+// });
+// });
 
 $(document).ready(function() {
     var lastScrollTop = 0;
