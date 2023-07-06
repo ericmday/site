@@ -1100,11 +1100,11 @@ you’ll need this feature for other aspects of your site before implementing th
 
 /* Mobile custom nav */
 
-@media (max-width: 680px) {
-	/* 	.notion-header,
+/* @media (max-width: 680px) {
+		.notion-header,
 	#page-index .super-content {
 		margin-top: 150px !important;
-	} */
+	}
 	.logo .mobile {
 		display: initial;
 		height: 125px;
@@ -1124,7 +1124,7 @@ you’ll need this feature for other aspects of your site before implementing th
 		border-radius: var(--rounded-lg) !important;
 		width: calc(100% - 24px) !important;
 		padding: 100px 70px 20px !important;
-/* 		right: 12px !important; */
+		right: 12px !important;
 		left: 12px !important;
 		top: 12px !important;
 		display: flex;
@@ -1148,7 +1148,7 @@ you’ll need this feature for other aspects of your site before implementing th
 		padding-left: 0px;
 		margin-top: 15px;
 	}
-}
+} */
 
 /*****************************/
 
